@@ -3,6 +3,7 @@
   "buildOptions": {
     "emitEntryPoint": true,
     "compile": {
+      "include": "**/*.cs",
       "excludeFiles": [
         "temp/Program.cs"
       ]
