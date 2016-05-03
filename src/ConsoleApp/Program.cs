@@ -9,6 +9,8 @@ namespace ConsoleApp
     {
         public static void Main(string[] args)
         {
+            var c = new ClassLibrary1.Class1();
+            Console.WriteLine(c.GetGreeting());
         }
     }
 }

@@ -12,5 +12,10 @@ namespace ClassLibrary1
         public Class1()
         {
         }
+
+        public string GetGreeting()
+        {
+            return "Hello!";
+        }
     }
 }
